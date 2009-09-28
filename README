@@ -1,3 +1,13 @@
-Collection of fortune files for Brian Eno's "Oblique Strategies" (http://en.wikipedia.org/wiki/Oblique_Strategies)
+Collection of fortune files for Brian Eno's "Oblique Strategies" 
+(http://en.wikipedia.org/wiki/Oblique_Strategies)
 
-If you have an edition that's not currently on here, send me an email: hermann.kaser@gmail.com
+If you have an edition that's not currently on here, send me an email: 
+hermann.kaser@gmail.com
+
+To use, copy the files to the folder where the normal fortune data files are 
+stored and then add a call to fortune at the end of your .bashrc to get it to 
+show up on login.
+
+Example for Ubuntu:
+$ sudo cp oblique* /usr/share/games/fortunes/
+$ echo "fortune oblique-ed4" >> ~/.bashrc
